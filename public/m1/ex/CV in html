@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio CV</title>
+    <link rel="stylesheet" href="esercizio.CSS">
+    
+</head>
+<body>
+    <h1 id="titolo">Il Mio curriculum Vitae</h1>
+    <ul>
+        <a href="#descrizione"><li>Descrizione</li></a>
+        <a href="#formazione"><li>Formazione</li></a>
+        <a href="#esperienzelavorative"><li>Esperienze Lavorative</li></a>
+        <a href="#competenze"><li>Competenze</li></a>
+        <a href="#contatti"><li>Contatti</li></a>
+    </ul>
+
+    <div id="descrizione"><h2>Descrizione</h2></div>
+    <img width="200" src="./1699348764251.png" alt="">
+    <p>inserire bio e <u>personalizzarla</u></p>
+
+    <div id="titolo" id="formazione"><h2>Formazione</h2></div>
+    <div><h3><i>2024 - </i> Laurea Magistrale - Innovazione Sociale</h3><p>Università Degli Studi Di Napoli Federico II</p></div>
+    <div><h3><i>2023 - </i> Master I Livello - Management Del Welfare Territoriale</h3><p>Università Degli Studi Di Salerno</p></div>
+    <div><h3><i>2021 - </i> Laurea Triennale  - Sociologia</h3><p>Università Degli Studi Di Napoli Federico II</p></div>
+    <h3>Altra Formazione</h3>
+    <i>2023</i> <b>Attestato Europrogettazione</b><br>
+    2023</i><b>Attestato HR Academy</b><br>
+    <i>2023</i> <b>Attestato Diritti e Doveri dei Lavoratori</b><br>
+    <i>2023</i> <b>Attestato Salute e Sicurezza sul Lavoro</b>
+    <div id="esperienzelavorative"><h2>Esperienze Lavorative</h2>
+    <p><i>Novembre 2022/Agosto 2023 - </i> <b>Cooperativa Impresa Sociale Project Ahead </b></p></div><br> Compiti svolti: Accoglienza e gestione dei co-worker stranieri, Revisione documenti contabili,                        
+        Data entry, Costruzione di mappature stakeholder di progetti
+
+    <div id="competenze"><h2>Competenze</h2></div>
+    <ol><li>Ottima Gestione Dell'agenda</li>
+        <li>Propensione al Team Work</li> 
+        <li>Flessibilità Operativa</li>
+        <li>Orientamento Alla Crescita Professionale</li> 
+    </ol>
+
+    <div id="contatti"> <h2>Contatti</h2> </div>
+    <form action="" method="post">
+        <label for="user-nome">Nome:</label>
+        <input id="user-nome" name="user-nome" type="text" placeholder="inserisci il tuo Nome" required> <br>
+       
+            <label for="user-mail">Email:</label>
+            <input type="email" id="user-mail" name="user-mail" placeholder="Inserisci la tua email" required><br>
+            
+            <label for="user-tel">Telefono:</label>
+            <input type="number" name="user-tel" id="user-tel" placeholder="Inserisci Numero Di Telefono" required> <br>
+        
+            <textarea name="user-messaggio" id="user-messaggio" cols="30" rows="10" placeholder="Inserisci qui il tuo messaggio" required></textarea> <br>
+
+        <input type="submit" value="Invia il tuo messaggio">
+</body>
+</html>
